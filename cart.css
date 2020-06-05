@@ -1,0 +1,113 @@
+form {
+    display: grid;
+    padding: 1em;
+    background: #f9f9f9;
+    border: 1px solid #c1c1c1;
+    margin: 2rem auto 0 auto;
+    max-width: 600px;
+    padding: 1em;
+  }
+  form input {
+    background: #fff;
+    border: 1px solid #9c9c9c;
+  }
+  form button {
+    background: lightgrey;
+    padding: 0.7em;
+    width: 100%;
+    border: 0;
+  }
+  form button:hover {
+    background: gold;
+  }
+  
+  label {
+    padding: 0.5em 0.5em 0.5em 0;
+  }
+  
+  input {
+    padding: 0.7em;
+    margin-bottom: 0.5rem;
+  }
+  input:focus {
+    outline: 3px solid gold;
+  }
+  
+  @media (min-width: 400px) {
+    form {
+      grid-template-columns: 200px 1fr;
+      grid-gap: 16px;
+    }
+  
+    label {
+      text-align: right;
+      grid-column: 1 / 2;
+    }
+  
+    input,
+    button {
+      grid-column: 2 / 3;
+    }
+  }
+
+
+
+.daan > button {
+    background: lightgrey;
+    padding: 0.7em;
+    width: 111%;
+    border: 0;
+}
+.daan >  button:hover {
+    background: gold;
+  }
+/* 
+button{
+    padding: 7px 14px;
+    font-size: medium;
+    color: white;
+    font-family:  sans-serif;
+} */
+
+#fa{
+    color: rgb(128, 216, 78);
+}
+.uselink{
+    margin: 50px 150px;
+}
+.connectus{
+    margin: 50px 150px;
+}
+.faa{
+    font: normal normal normal 14px/1 FontAwesome; 
+}
+
+
+
+.copyright{
+    overflow-y: hidden;
+    height: 40px;
+    background-color: #f8f9fa;
+    padding-bottom: 8px;
+    padding-top: 8px;
+}
+.c{
+    position: relative;
+    min-height: 1px; 
+    margin-left: 45px;
+    padding-left: 10px; 
+}
+
+.scrollToTop {
+    background: rgba(14, 13, 13, 0.281);
+    bottom: 15px;
+    height: 30px;
+    color: white;
+    padding: 2px;
+    position: fixed;
+    right: 10px;
+    text-align: center;
+    text-decoration: none;
+    width: 40px;
+    z-index: 99999;
+}

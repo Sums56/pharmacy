@@ -1,0 +1,47 @@
+body{
+    overflow-x: hidden;
+    background-color:  #858383;
+}
+
+#fa{
+    color: rgb(128, 216, 78);
+}
+.uselink{
+    margin: 50px 150px;
+}
+.connectus{
+    margin: 50px 150px;
+}
+.faa{
+    font: normal normal normal 14px/1 FontAwesome; 
+}
+
+
+
+.copyright{
+    overflow-y: hidden;
+    height: 40px;
+    background-color: #f8f9fa;
+    padding-bottom: 8px;
+    padding-top: 8px;
+}
+.c{
+    position: relative;
+    min-height: 1px; 
+    margin-left: 45px;
+    padding-left: 10px; 
+}
+
+.scrollToTop {
+    background: rgba(14, 13, 13, 0.281);
+    bottom: 15px;
+    height: 30px;
+    color: white;
+    padding: 2px;
+    position: fixed;
+    right: 10px;
+    text-align: center;
+    text-decoration: none;
+    width: 40px;
+    z-index: 99999;
+}
